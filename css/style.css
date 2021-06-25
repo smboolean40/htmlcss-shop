@@ -19,7 +19,9 @@
 	/* background-color: lightblue; */
 	/* border: 1px solid black; */
 }
-
+.product-img {
+	position: relative;
+}
 .product-img img {
 	display: block;
 	width: 100%;
@@ -35,4 +37,13 @@
 }
 .original-price {
 	text-decoration: line-through;
+}
+
+.heart {
+	position: absolute;
+	top: 20px;
+	right: 0;
+	font-size: 30px;
+	background-color: white;
+	padding: 5px 20px;
 }
