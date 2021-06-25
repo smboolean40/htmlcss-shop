@@ -26,6 +26,16 @@
 	display: block;
 	width: 100%;
 }
+.product-img .over-img {
+	display: none;
+}
+
+.product-img:hover .over-img {
+	display: block;
+}
+.product-img:hover .original-img {
+	display: none;
+}
 
 .product-info h3 {
 	text-transform: uppercase;
