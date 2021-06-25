@@ -47,3 +47,19 @@
 	background-color: white;
 	padding: 5px 20px;
 }
+
+.labels {
+	position: absolute;
+	bottom: 20px;
+}
+.labels span {
+	padding: 5px 3px;
+	color: white;
+	font-weight: bold;
+}
+.labels .discount {
+	background-color: red;
+}
+.labels .sos {
+	background-color: green;
+}
